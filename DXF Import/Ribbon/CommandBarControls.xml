@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CommandBarControls xmlns="urn:abb-robotics-robotstudio-commandbarcontrols"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="urn:abb-robotics-robotstudio-commandbarcontrols file:///C:\Program%20Files%20(x86)\ABB\RobotStudio%202021\Schemas\CommandBarControls.xsd">
+
+	<!-- Controls defined by this add-in -->
+
+	<!-- The 'Start' button has defaultEnabled set to true which means it will be enabled even before the add-in is loaded. -->
+	<!-- When it is clicked the add-in will be loaded and the ExecuteCommand handler will be called. -->
+	<CommandBarButton id="DXF_Import.StartButton" caption="Load DXF" defaultEnabled="true"/>
+	<CommandBarButton id="DXF_Import.CloseButton" caption="Close Addin"/>
+	<CommandBarButton id="DXF_Import.CreateModel" caption="Create Model"/>
+	<CommandBarButton id="DXF_Import.CreatePath" caption="Create Program"/>
+	<CommandBarComboBox id="DXF_Import.ActiveIOs" caption="Plasma IO"/>
+	<CommandBarComboBox id="DXF_Import.PeirceTime" caption="Peirce Time"/>
+	<CommandBarComboBox id="DXF_Import.CutSpeed" caption="Cut Speed"/>
+	<CommandBarComboBox id="DXF_Import.Offset" caption="Vertical Offset"/>
+	<CommandBarComboBox id="DXF_Import.Kerf" caption="Kerf"/>
+
+
+</CommandBarControls>

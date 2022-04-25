@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Ribbon xmlns="urn:abb-robotics-robotstudio-ribbon"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="urn:abb-robotics-ribbon file:///C:\Program%20Files%20(x86)\ABB\RobotStudio%202021\Schemas\Ribbon.xsd">
+
+	<Tabs>
+		<!-- Add a button to an existing ribbon tab -->
+		<Tab id="AddIns">
+			<Group id="Manufacturing" caption="Manufacturing">
+				<Control id="DXF_Import.StartButton" layout="Large"/>
+			</Group>
+		</Tab>
+		
+		
+		
+		
+		<Tab id="DXF_Import.ManufacturingTab" caption="Manufacturing" visible="false">
+			<!-- It is possible to add a button to an existing group, but note that standard groups may change -->
+			<!-- In this sample we create a new group -->
+			<Group id="grpDXF" caption="DXF Importing">
+				<Control id="DXF_Import.CreateModel" layout="Large"/>
+			</Group>
+			<Group id="grpPlasma" caption="Plasma Cutting">
+				<Control id="DXF_Import.CreatePath" layout="Large"/>
+				<Control id="DXF_Import.ActiveIOs" layout="Small;Icon"/>
+				<Control id="DXF_Import.PeirceTime" layout="Small;Icon"/>
+				<Control id="DXF_Import.CutSpeed" layout="Small;Icon"/>
+			</Group>
+			<Group id="grpManufaturing" caption="Manufacturing">
+				<Control id="DXF_Import.Kerf" layout="Small;Icon"/>
+				<Control id="DXF_Import.Offset" layout="Small;Icon"/>
+			</Group>
+			<Group id="grpClose" caption="Close">
+				<Control id="DXF_Import.CloseButton" layout="Large"/>
+			</Group>
+		</Tab>
+		<!-- Create a new ribbon tab -->
+	</Tabs>
+</Ribbon>
