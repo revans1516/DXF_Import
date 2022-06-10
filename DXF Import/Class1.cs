@@ -450,7 +450,7 @@ namespace DXF_Import
                     PlasmaProgram.Instructions.Add(NextInstruction);
 
                     
-                    PlasmaProgram.Instructions.Add(CreateNewMove(station.ActiveTask, MotionType.Linear, PathTargets[2].Name, cmbSpeed.SelectedItem.Text, "zfine"));
+                    PlasmaProgram.Instructions.Add(CreateNewMove(station.ActiveTask, MotionType.Linear, PathTargets[2].Name, cmbSpeed.SelectedItem.Text, "z0"));
 
 
 
@@ -471,21 +471,18 @@ namespace DXF_Import
                             moveInstruction = new RsMoveInstruction(station.ActiveTask, "Move", "Default", station.ActiveTask.ActiveWorkObject.Name, PathTargets[i].Name, PathTargets[i + 1].Name, station.ActiveTask.ActiveTool.Name);
                             i++;
                             if (moveInstruction.InstructionArguments.TryGetInstructionArgument("Speed", out InstructionToModify)) InstructionToModify.Value = cmbSpeed.SelectedItem.Text;
-                            if (moveInstruction.InstructionArguments.TryGetInstructionArgument("Zone", out InstructionToModify)) InstructionToModify.Value = "zfine";
+                            if (moveInstruction.InstructionArguments.TryGetInstructionArgument("Zone", out InstructionToModify)) InstructionToModify.Value = "z0";
                             PlasmaProgram.Instructions.Add(moveInstruction);
                         }
                         else
                         {
                             PathTargets[i].Transform.Z = VerticalOffset;
-                            PlasmaProgram.Instructions.Add(CreateNewMove(station.ActiveTask, MotionType.Linear, PathTargets[i].Name, cmbSpeed.SelectedItem.Text, "zfine"));
+                            PlasmaProgram.Instructions.Add(CreateNewMove(station.ActiveTask, MotionType.Linear, PathTargets[i].Name, cmbSpeed.SelectedItem.Text, "z0"));
                         }
                         
 
                         
                     }
-                    
-
-
                     //if (PathMoveTypes[StartPlasma+1] == RsPointType.CirPoint || PathMoveTypes[3] == RsPointType.ViaPoint)
                     //{
                     //    RsMoveInstruction TempmoveInstruction;
