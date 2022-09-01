@@ -483,21 +483,7 @@ namespace DXF_Import
 
                         
                     }
-                    //if (PathMoveTypes[StartPlasma+1] == RsPointType.CirPoint || PathMoveTypes[3] == RsPointType.ViaPoint)
-                    //{
-                    //    RsMoveInstruction TempmoveInstruction;
-                    //    PathTargets[StartPlasma + 1].Transform.Z = VerticalOffset;
-                    //    PathTargets[StartPlasma + 2].Transform.Z = VerticalOffset;
-                    //    TempmoveInstruction = new RsMoveInstruction(station.ActiveTask, "Move", "Default", station.ActiveTask.ActiveWorkObject.Name, PathTargets[StartPlasma + 1].Name, PathTargets[StartPlasma + 2].Name, station.ActiveTask.ActiveTool.Name);
-                    //    if (TempmoveInstruction.InstructionArguments.TryGetInstructionArgument("Speed", out InstructionToModify)) InstructionToModify.Value = cmbSpeed.SelectedItem.Text;
-                    //    if (TempmoveInstruction.InstructionArguments.TryGetInstructionArgument("Zone", out InstructionToModify)) InstructionToModify.Value = "zfine";
 
-                    //    PlasmaProgram.Instructions.Add(TempmoveInstruction);
-                    //}
-                    //else
-                    //{
-                    //    PlasmaProgram.Instructions.Add(CreateNewMove(station.ActiveTask, MotionType.Linear, PathTargets[StartPlasma + 1].Name, "v1000", "z0"));
-                    //}
                     
 
 

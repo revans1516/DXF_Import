@@ -39,40 +39,41 @@
   <ItemGroup>
     <Reference Include="ABB.Robotics.Controllers.PC">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\ABB\RobotStudio 2022\Bin\ABB.Robotics.Controllers.PC.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="ABB.Robotics.Math">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(ProgramFiles)\ABB\SDK\RobotStudio 2021 SDK\ABB.Robotics.Math.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\ABB\RobotStudio 2022\Bin\ABB.Robotics.Math.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ABB.Robotics.RobotStudio">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(ProgramFiles)\ABB\SDK\RobotStudio 2021 SDK\ABB.Robotics.RobotStudio.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\ABB\RobotStudio 2022\Bin\ABB.Robotics.RobotStudio.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ABB.Robotics.RobotStudio.Controllers">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(ProgramFiles)\ABB\SDK\RobotStudio 2021 SDK\ABB.Robotics.RobotStudio.Controllers.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\ABB\RobotStudio 2022\Bin\ABB.Robotics.RobotStudio.Controllers.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ABB.Robotics.RobotStudio.Environment">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(ProgramFiles)\ABB\SDK\RobotStudio 2021 SDK\ABB.Robotics.RobotStudio.Environment.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\ABB\RobotStudio 2022\Bin\ABB.Robotics.RobotStudio.Environment.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ABB.Robotics.RobotStudio.Stations">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(ProgramFiles)\ABB\SDK\RobotStudio 2021 SDK\ABB.Robotics.RobotStudio.Stations.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\ABB\RobotStudio 2022\Bin\ABB.Robotics.RobotStudio.Stations.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ABB.Robotics.RobotStudio.Stations.Forms">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(ProgramFiles)\ABB\SDK\RobotStudio 2021 SDK\ABB.Robotics.RobotStudio.Stations.Forms.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\ABB\RobotStudio 2022\Bin\ABB.Robotics.RobotStudio.Stations.Forms.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ABB.Robotics.RobotStudio.UI">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(ProgramFiles)\ABB\SDK\RobotStudio 2021 SDK\ABB.Robotics.RobotStudio.UI.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\ABB\RobotStudio 2022\Bin\ABB.Robotics.RobotStudio.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netDxf, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL">

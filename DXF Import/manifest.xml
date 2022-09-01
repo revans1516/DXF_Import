@@ -4,7 +4,7 @@
 	<Title>DXF Importer Addin</Title>
 	<Creator>ABB User</Creator>
 	<Description>This distribution package shows how to pack an Add-In and make a manifest file</Description>
-	<Date>2016-07-15</Date>
+	<Date>2022-07-15</Date>
 	<SideBySide>false</SideBySide>
 	<Information>http://www.abb.com</Information>
 	<Documentation>Documentation\use_manual.pdf</Documentation>
